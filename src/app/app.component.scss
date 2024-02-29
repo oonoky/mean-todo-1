@@ -1,0 +1,77 @@
+.navbar{
+    position: absolute !important;
+}
+.date-time{
+    background: #fff;
+    font-size: 10px;
+    font-weight: 500;
+    padding: 8px 12px;
+    border-radius: 4px;
+        i{
+            font-size: 15px;
+            padding-right: 8px;
+        }
+}
+.task-card{
+    height: 100px;
+    .item-left{
+        text-align: center;
+        padding: 2px 12px 8px 12px;
+        float: left;
+        color: #fff;
+    }
+    .item-right{
+        font-size: 0.9rem;
+    }
+}
+.search-input{
+    border: 1px solid #3333;
+    input{
+        height: 44px;
+        border: 0;
+        padding: 0;
+        &:active,&focus{
+            box-shadow: none;
+        }
+    }
+}
+select{
+    height: 44px;
+    &:active,&focus{
+        box-shadow: none;
+    }    
+}
+.todo-list-wrapper{
+    .top-bg{
+        background-image: url('https://avatanplus.com/files/resources/original/5833480dbf2b4158885175d7.png');
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: 25% 40%;
+        height: 280px;
+        &::after{
+            content: '';
+            background: #4568DC;
+            background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
+            height: 280px;
+            position: absolute;
+            width: 100%;
+            opacity: 0.8;
+        }
+    }
+    .main-card{
+        margin-top: -200px;
+        margin-bottom: 40px;
+        position: relative;
+        .header{
+            h1{
+                letter-spacing: 12px;
+                margin: 0 0 20px 0;
+            }
+        }
+    }
+}
+.ngx-pagination{
+    margin: 0 !important;
+    padding: 0 !important;
+    text-align: center;
+}
